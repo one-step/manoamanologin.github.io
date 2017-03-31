@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <body>
  
-  <title>Mano A Mano</title>
+<title>ManoAManologin</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="estilos.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <meta name="google-site-verification" content="cRmm2V5KDuxYNmElhhAtoilt_0nswu51FLf_4WN0qeU" />
-</body>
-  </head>
+</head>
 <!-- Navbar -->
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -30,11 +28,12 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
      
-     <li><a href="http://manoamanohome.ml/">HOME</a></li>
-        <li><a href="http://manoamanomimanoamano.ml/">MI MANO A MANO</a></li>
-        <li><a href="http://manoamanoempresas.ml/">EMPRESAS</a></li>
-        <li><a href="http://manoamanohome.ml/">DESDE CASA</a></li>
-        <li><a href="http://manoamanologin.ml/">LOGIN</a></li>
+      
+        <li><a href="#about">HOME</a></li>
+        <li><a href="#services">MI MANO A MANO</a></li>
+        <li><a href="#portfolio">EMPRESARIOS</a></li>
+        <li><a href="#pricing">DESDE CASA</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
   </div>
@@ -42,60 +41,27 @@
 
 
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-1 text-center">    
-  <h1 class="margin">MANO A MANO</h1>
-   <h2>LOGIN</h2>
+<div class="container-fluid bg-1 text-center">
+<img src="http://www.pendikpatent.com.tr/mp-include/uploads/2015/03/banner2.jpg" alt="Avatar" class="avatar">
 
-<form action="/action_page.php">
-  <div class="imgcontainer">
-    <img src="http://www.pendikpatent.com.tr/mp-include/uploads/2015/03/banner2.jpg" alt="Avatar" class="avatar">
-  </div>
-
-  <div class="container">
-    <label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-      
-      <label><b>Repeads Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-    
-     <label><b>E-mail</b></label>
-    <input type="password" placeholder="Enter E-mail" name="psw" required>
-        
-    <button type="submit">Login</button>
-    <input type="checkbox" checked="checked"> Remember me
-  </div>
-</form>
-
-
-  
-
-
+<h1>Formulario de registro</h1>
+<form action="registrar.php" method="post"
+  class="form-register" onsumit="returnvalidar();">
+  <h2 class="form-titulo">CREAR UNA CUENTA</h2>
+    <div class="contenedor-inputs">
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48" reguired>
+    <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input-48" reguired>
+    <input type="email" id="correo" name="correo" placeholder="Correo" class="input-100" reguired>
+    <input type="text" id="usuario" name="usuario" placeholder="Usuario" class="input-48" reguired>    
+    <input type="password" id="clave" name="clave" placeholder="Contraseña" class="input-48" reguired>
+    <input type="text" id="telefono" name="Telefono" placeholder="Correo" class="input-100" reguired>
+    <input type="submit" value="Registrar" class="btn-enviar" reguired>
+    <p class="form__link">Ya tienes una cuenta? <a href="#">Ingresa aqui</a></p>    
+</div>
+   </form>
 
 <!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p><a href="https://www.w3schools.com">www.Mano a Mano.com</a>&#169;</p>
-  <i class="fa fa-facebook-square" style="font-size:48px;color:#00c3ff" ></i>
-  <i class="fa fa-linkedin-square" style="font-size:48px;color:#00c3ff"></i>
-  <i class="fa fa-twitter-square" style="font-size:48px;color:#00c3ff "></i>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-29434072-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
-  <script type="text/javascript"> 
-    var adfly_id = 16259521; 
-    var popunder_frequency_delay = 0; 
-</script> 
-<script src="https://cdn.adf.ly/js/display.js"></script> 
-</footer>
 </div>
 </body>
  
